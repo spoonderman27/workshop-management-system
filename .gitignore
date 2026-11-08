@@ -1,0 +1,12 @@
+# User uploads: keep the folders, not the files
+uploads/*
+!uploads/.gitkeep
+UPLOAD/materials/*
+!UPLOAD/materials/.gitkeep
+UPLOAD/submissions/*
+!UPLOAD/submissions/.gitkeep
+
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
